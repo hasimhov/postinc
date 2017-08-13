@@ -26,11 +26,15 @@ SECRET_KEY = 'd)isxi!z4-_f6m!ye0ber@-(mq*=8k36$ion=_tv=kkt#%g109'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+STATIC_URL = '/'
+MEDIA_ROOT = ''
+MEDIA_URL ='/'
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'form.apps.FormConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
